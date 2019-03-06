@@ -1,12 +1,17 @@
 
 
-## Contributing
+## Installation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+$ git clone
+$ cp .env.example .env
+$ composer install
+$ php artisan migrate
+$ php artisan db:seed
+$ php artisan serve 
 
-## Security Vulnerabilities
+## Api Documentation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Documentation file is available in the public/docs folder
 
 ## License
 
